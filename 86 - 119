@@ -1,0 +1,37 @@
+              leia (cadastro[cont] .email)
+escreval("Qual Nome da rua do cliente")
+               leia (cadastro[cont] .rua)
+escreval("Numero da residência")
+               leia (cadastro[cont] .num
+escreval("Qual estado")
+               leia (cadastro[cont] .est)
+escreval("Qual a cidade")
+               leia (cadastro[cont] .cid)
+escreval("Qual o Bairro")
+               leia (cadastro[cont] .bai)
+escreval("Qual o CEP")
+leia (cadastro[cont] .cep)
+cont <- cont+1
+
+Limpatela
+escreval ("deseja fazer um novo cadastros?")
+escreval("1 = SIM | 2 = NÃo")
+fimse
+leia (fim)
+
+até fim - "2"
+fimprocedimento
+
+
+procedimento cardapio()
+inicio
+limpatela
+escreval ("CARDÁPIO DA PIZZARIA")
+escreval ("")
+       escreval("Sabores das Pizzas")
+       escreval("Pizza de Mussarela -> 40,00 R$")
+       escreval("Ingredientes: Mussarela e Oregano")
+       escreval("")
+       escreval("Pizza de Calabresa -> 42,00 R$")
+       escreval("Ingredientes: Mussarela e Calabresa fatiada")
+       escreval("")
